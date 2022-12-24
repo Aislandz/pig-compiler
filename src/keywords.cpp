@@ -5,32 +5,32 @@
 #include <cstdlib>
 
 Keyword find_keyword(std::string input) {
-    if (input == "moo") {
+    if (input == "oink") {
         return moo;
-    } else if (input == "mOo") {
+    } else if (input == "oInk") {
         return mOo;
-    } else if (input == "moO") {
+    } else if (input == "oiNk") {
         return moO;
-    } else if (input == "mOO") {
+    } else if (input == "oinK") {
         return mOO;
-    } else if (input == "Moo") {
+    } else if (input == "Oink") {
         return Moo;
-    } else if (input == "MOo") {
+    } else if (input == "OInk") {
         return MOo;
-    } else if (input == "MoO") {
+    } else if (input == "OiNk") {
         return MoO;
-    } else if (input == "MOO") {
+    } else if (input == "OINK") {
         return MOO;
-    } else if (input == "OOO") {
+    } else if (input == "IINK") {
         return OOO;
-    } else if (input == "OOM") {
+    } else if (input == "IINO") {
         return OOM;
-    } else if (input == "oom") {
+    } else if (input == "IIOK") {
         return oom;
-    } else if (input == "MMM") {
+    } else if (input == "OOOI") {
         return MMM;
     } else {
-        std::cout << "'" << input << "' is invalid COW operator. Exiting..." << std::endl;
+        std::cout << "'" << input << "' is invalid Pig operator. Exiting..." << std::endl;
         std::exit(1);
     }
 }

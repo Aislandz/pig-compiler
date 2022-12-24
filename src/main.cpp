@@ -31,7 +31,7 @@ static inline void trim(std::string &s) {
 }
 
 int main(int argc, char* argv[]) {
-    // Program parser("Moo moo OOO");
+    // Program parser("Oink oink OOOI");
     if (argc == 1) {
         std::cout << "No Moo file passed. Exiting..." << std::endl;
         return EXIT_FAILURE;
